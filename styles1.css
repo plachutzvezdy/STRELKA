@@ -11,6 +11,16 @@ body {
   justify-content: center;
 }
 
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+  color:black;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 100px;
+}
+
 nav ul {
   position: absolute;
   top: 0px;
@@ -47,46 +57,29 @@ a:hover {
   text-decoration: line-through;
 }
 
-h1{
-  font-weight: bold;
-  font-size: 30px;
-  color:black;
+
+.list {
+  font-weight: bolder;
+  font-size: 18px;
+  color: black;
   align-items: center;
   justify-content: center;
-  display: flex;
-  margin-top: 100px;
+  margin-left: 480px;
 }
 
-h1 + .image1 {
-  padding-top: 50px;
+.orange {
+  margin-top: 50px;
 }
 
-.klyk {
-  color:black;
-  border: 1px solid blue;
-  padding: 10px;
-  width: 700px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: inline;
+.orange + .chinese {
+  margin-top: 50px;
 
-	margin-left: 400px;
-  margin-bottom: 100px;
-
-}
-
-.rate1 {
-  font-weight: bold;
-  font-size: 15px;
-  padding-left: 10px;
-  padding-top: 260px;
 }
 
 .about {
   display: flex;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 100px;
   text-transform: uppercase;
 
   color: white;
@@ -97,25 +90,4 @@ h1 + .image1 {
   align-items: center;
   background-color: blue;
   width: 150px;
-}
-
-h2{
-  font-weight: bolder;
-  padding-right: 50px;
-  padding-top: 0px;
-  font-size: 23px;
-}
-
-
-p {
-  font-size: 14px;
-}
-
-.image1 {
-  color:black;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  display: flex;
-  margin-left: 50px;
 }
